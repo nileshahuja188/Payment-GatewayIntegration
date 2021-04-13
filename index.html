@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CHARITYya</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="wrapper">
+			<nav class="navbar">
+				<img class="logo" src="logo.jpeg" href="index.html">
+				<ul>
+					<li><a class="active" href="index.html">HOME</a></li>
+					<li><a href="donate.html">DONATE</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</nav>
+			<div class="center">
+			<h1>Giving is not just about making a donation, it is about making a difference.</h1>
+			<div class="buttons">
+			<button onclick="window.location.href='about.html'">ABOUT US</button>
+			<button class="btn2" onclick="window.location.href='donate.html'">DONATE US</button>
+		</div>
+		</div>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_cart">
+<input type="hidden" name="upload" value="1">
+<input type="hidden" name="business" value="seller@dezignerfotos.com">
+<input type="hidden" name="item_name_1" value="Item Name 1">
+<input type="hidden" name="amount_1" value="1.00">
+<input type="hidden" name="shipping_1" value="1.75">
+<input type="hidden" name="item_name_2" value="Item Name 2">
+<input type="hidden" name="amount_2" value="2.00">
+<input type="hidden" name="shipping_2" value="2.50">
+<input type="submit" value="PayPal">
+</form>
+</body>
+</html>
